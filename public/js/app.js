@@ -5,7 +5,7 @@ const p2 = document.querySelector('#p2')
 
 weatherForm.addEventListener('submit', (e) => {
     e.preventDefault()
-
+    //
     p1.textContent = 'Loading...'
     p2.textContent = ''
 
